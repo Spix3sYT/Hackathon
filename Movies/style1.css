@@ -1,0 +1,339 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 2s;
+  }
+  
+  a:hover{
+    background-color: #ffe100;
+    color: #1a1c8e;
+    animation: 2s;
+    border-radius: 10px;
+    padding: 5px 10px;
+  }
+  
+  nav {
+    width: 100vw;
+    background-color: #1a1c8e;
+    padding: 30px 0px;
+    z-index: 1000;
+    margin-bottom: 100px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    word-spacing: 10px;
+  }
+  
+  nav a {
+    padding: 1px;
+    color: #ffe100;
+    background-color: none;
+    border: none;
+    text-decoration: none;
+  }
+  
+  #btn1 {
+    padding: 1px;
+    color: #ffe100;
+    background-color: #1a1c8e;
+    border: none;
+    font-size: 20px;
+  }
+  
+  #s1{
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+  #s2{
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+  #s3{
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+  #s4{
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+#maincontainer{
+  position:relative;
+  width: 350px;
+  height:450px;
+
+}
+
+#thecard{
+  position:relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: 1s;
+  margin-left: 25px;
+}
+
+.btn{
+
+    border-radius: 20px;
+    color:#f3e309;
+    background-color: #0c3ec9;
+    margin-top: 18px;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    width: 125px;
+    font-weight: bold;
+    font-size: 15px;
+    z-index: 100;
+
+
+}
+
+#thefront{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background-image:url(https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2022%2F10%2F04%2FSuper-Mario-Bros-100422.jpg);
+  background-size: cover;
+  border-radius: 10px;
+}
+
+#thefront1{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background-image:url(https://www.dreamworks.com/storage/cms-uploads/the-bad-guys-posters.jpg);
+  background-size: cover;
+  border-radius: 10px;
+}
+#thefront2{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background-image:url(https://www.dreamworks.com/storage/cms-uploads/puss-in-boots-the-last-wish-poster-thumbnail2.jpg);
+  background-size: cover;
+  border-radius: 10px;
+}
+
+#thefront3{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background-image:url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSTE8VdStnOV3w5hKKxgiUWeFEEF9cq_LWJh-shcHS9r-GtZTHq);
+  background-size: cover;
+  border-radius: 10px;
+}
+
+#thefront4{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background-image:url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSGQUTaBL19fLf8caYxcyNt0mYl9HgpiKPAaGgQxCuz3ZTvAWVI);
+  background-size: cover;
+  border-radius: 10px;
+}
+
+#thefront5{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background-image:url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcT2ujY2cShFV3ehcllCBBy9tUpSBWENdftEbS0UEshbthw7KNst);
+  background-size: cover;
+  border-radius: 10px;
+}
+
+#thefront6{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background-image:url(https://close-upfilm.co.uk/wp-content/uploads/2022/10/f27426862def0c4984c3ccb612940e0f4963ed7f3c46877f9ef4b239161f182f-691x1024.jpg);
+  background-size: cover;
+  border-radius: 10px;
+}
+
+#thefront7{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background-image:url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQoqCeUmQj_C0YYZlSkXVwDwv1566jncQzZMJEMxDcThPkAefrE);
+  background-size: cover;
+  border-radius: 10px;
+}
+
+#thefront8{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background-image:url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS1razy4eSumpLe0M2KOCN-tJMiCUsIfPwH3SKH1h3jZE4t2v-D);
+  background-size: cover;
+  border-radius: 10px;
+}
+#thefront9{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background-image:url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQfLeksDR_C7pokAwOCoRnkcCNOFzfas-2RHR3inPcQB57iBd5d);
+  background-size: cover;
+  border-radius: 10px;
+}
+
+#thefront10{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background-image:url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRg2El7StN-vVhm41M8p7PdqoiBmPumqJ34A4YlBX9JAuaGJblf);
+  background-size: cover;
+  border-radius: 10px;
+}
+
+#thefront11{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background-image:url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQpAzH_s5gSULbJ_vwGWzR4GvL5KHBv0ap_D7H2oyaDxX5_oeYt);
+  background-size: cover;
+  border-radius: 10px;
+}
+
+
+
+
+#theback{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  color: #fff;
+  background-color: black;
+
+  transform: rotateY(180deg);
+  text-align: center;
+  border-radius: 15px;
+  z-index: 1;
+}
+
+#thecard:hover{
+  transform: rotateY(180deg);
+}
+
+
+footer{
+  background: rgb(1, 25, 65);
+  height: auto;
+  width: 100vw;
+  font-family: "Open Sans";
+  padding-top: 40px;
+  color: #fff;
+  margin-top: 100px;
+  
+}
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3{
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.footer-content p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 20px;
+}
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.socials li{
+  margin: 0 10px;
+  size: 25px;
+}
+.socials a{
+  text-decoration: none;
+  color: #fff;
+}
+.socials a i{
+  font-size: 1.1rem;
+  transition: color .4s ease;
+
+}
+.socials a:hover i{
+  color: aqua;
+}
+
+.footer-bottom{
+  background: rgb(2, 35, 94);
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-bottom p{
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-bottom span{
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+}
+
+  @media (max-width:700px){
+    nav{
+      flex-direction: column;
+      
+    }
+  
+    .thecard{
+      width: 100%;
+     padding-right: 100px;
+      
+    }
+    #s1,#s2,#s2,#s4{
+      flex-direction: column;
+    }
+  
+  }
+
+  
